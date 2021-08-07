@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Guguloth",
+      "lastName": "Suresh",
+      "userName": "gugulothsuresh",
+      "email": "sureshnaik.guguloth@gmail.com",
+      "address": "Peddathanda",
+      "pincode": 506101,
+      "phone": 9700512765
+    },
+    {
+      "id": "30",
+      "firstName": "Suresh",
+      "lastName": "Guguloth",
+      "userName": "gugulothsureshnaik",
+      "email": "sureshnaik.guguloth@gmail.com",
+      "address": "7 11 peddathanda gundrathimadugu kuravi mahabubabad",
+      "pincode": "506101",
+      "phone": "9700512765"
+    },
+    {
+      "id": "3",
+      "firstName": "Suresh",
+      "lastName": "Guguloth",
+      "userName": "dfdfgdfgfdg",
+      "email": "sureshnaik.guguloth@gmail.com",
+      "address": "7 11 peddathanda gundrathimadugu kuravi mahabubabad",
+      "pincode": "506101",
+      "phone": "9700512765"
+    },
+    {
+      "id": "4",
+      "firstName": "Suresh",
+      "lastName": "Guguloth",
+      "userName": "dfgdfgdfg",
+      "email": "sureshnaik.guguloth@gmail.com",
+      "address": "7 11 peddathanda gundrathimadugu kuravi mahabubabad",
+      "pincode": "506101",
+      "phone": "9700512765"
+    },
+    {
+      "id": "5",
+      "firstName": "kjhkj",
+      "lastName": "kjhkjh",
+      "userName": "skldjfjfslkd",
+      "email": "sdflsdkkls@mail.com",
+      "address": "sdfd",
+      "pincode": "562222",
+      "phone": "1111111111"
+    }
+  ]
+}

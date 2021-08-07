@@ -1,0 +1,60 @@
+﻿<br>
+<br>
+<div>
+    <a href="/dashboard">Get All Users</a>
+</div>
+
+<div *ngIf="user" class="container">
+    <p style="text-align: center;font-size: 20px;">User Details : </p>
+    <div class="row">
+        <div class="col-sm-3 col-md-3"></div>
+        <div class="col-sm-3 col-md-3">Id</div>
+        <div class="col-sm-3 col-md-3">{{user.id}}</div>
+        <div class="col-sm-3 col-md-3"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3 col-md-3"></div>
+        <div class="col-sm-3 col-md-3">firstName</div>
+        <div class="col-sm-3 col-md-3">{{user.firstName}}</div>
+        <div class="col-sm-3 col-md-3"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3 col-md-3"></div>
+        <div class="col-sm-3 col-md-3">lastName</div>
+        <div class="col-sm-3 col-md-3">{{user.lastName}}</div>
+        <div class="col-sm-3 col-md-3"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3 col-md-3"></div>
+        <div class="col-sm-3 col-md-3">userName</div>
+        <div class="col-sm-3 col-md-3">{{user.userName}}</div>
+        <div class="col-sm-3 col-md-3"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3 col-md-3"></div>
+        <div class="col-sm-3 col-md-3">phone</div>
+        <div class="col-sm-3 col-md-3">{{user.phone}}</div>
+        <div class="col-sm-3 col-md-3"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3 col-md-3"></div>
+        <div class="col-sm-3 col-md-3">email</div>
+        <div class="col-sm-3 col-md-3">{{user.email}}</div>
+        <div class="col-sm-3 col-md-3"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3 col-md-3"></div>
+        <div class="col-sm-3 col-md-3">address</div>
+        <div class="col-sm-3 col-md-3">{{user.address}}</div>
+        <div class="col-sm-3 col-md-3"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3 col-md-3"></div>
+        <div class="col-sm-3 col-md-3">pincode</div>
+        <div class="col-sm-3 col-md-3">{{user.pincode}}</div>
+        <div class="col-sm-3 col-md-3"></div>
+    </div>
+</div>
+<div *ngIf="user==null">
+    <p style="text-align: center;font-size: 20px;">Not user found</p>
+</div>
