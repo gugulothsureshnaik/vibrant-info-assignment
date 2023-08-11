@@ -6,6 +6,7 @@
         "start": "ng serve --open",
         "build": "ng build",
         "test": "ng test",
+      "dbserver":"json-server --watch db.json",
         "lint": "ng lint",
         "e2e": "ng e2e"
     },
